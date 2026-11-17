@@ -94,10 +94,6 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:.01em;margin:0}
 .rooms-pair .device:first-child{width:78%}
 .rooms-pair .device:last-child{position:absolute;width:62%;right:0;bottom:0}
 
-/* facts */
-.facts{list-style:none;margin:0;padding:22px 0 clamp(56px,8vw,96px);display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
-.facts li{border:1px solid var(--line);border-radius:999px;padding:7px 15px;font-size:13.5px;color:var(--muted)}
-
 /* documents */
 .doc{max-width:calc(760px + 2 * var(--gutter));padding-top:clamp(28px,6vw,72px);padding-bottom:clamp(56px,8vw,96px)}
 .doc-head{padding-bottom:clamp(28px,4vw,44px);border-bottom:1px solid var(--line);margin-bottom:clamp(28px,4vw,44px)}
